@@ -1,0 +1,41 @@
+''''''Historia 1: Aumentar el contador'''''
+
+Como usuario,  
+quiero presionar el botón "INCREASE",  
+para que el número del contador aumente en uno cada vez.
+
+✅ Criterios de aceptación:
+- Al hacer clic en "INCREASE", el número incrementa en uno.
+- El color del número cambia a verde (#0d6251) si el valor es mayor que 0.
+
+❌ Criterios de rechazo:
+- El contador no debe cambiar si el botón no es presionado.
+- Si el número es cero o negativo, no debe mostrar el color verde.
+
+'''''Historia 2: Disminuir el contador'''''''
+
+Como usuario,  
+quiero presionar el botón "DECREASE",  
+para que el número del contador disminuya en uno cada vez.
+
+✅ Criterios de aceptación:
+- Al hacer clic en "DECREASE", el número disminuye en uno.
+- El color del número cambia a rojo (#922b20) si el valor es menor que 0.
+
+❌ Criterios de rechazo:
+- El número no puede disminuir por error sin presionar el botón.
+- Si el valor es cero o positivo, no debe mostrar el color rojo.
+
+''''''Historia3: Reiniciar el contador''''''
+
+Como usuario,  
+quiero tener un botón "RESET",  
+para que el valor del contador se reinicie a cero cuando lo presione.
+
+✅ Criterios de aceptación:
+- Al hacer clic en "RESET", el número vuelve a 0.
+- El color del número vuelve a negro (valor por defecto).
+
+❌ Criterios de rechazo:
+- Si no se hace clic en "RESET", el valor no debe cambiar.
+- El botón no debe modificar el valor si ya está en cero.
