@@ -26,7 +26,7 @@ para que el número del contador disminuya en uno cada vez.
 - El número no puede disminuir por error sin presionar el botón.
 - Si el valor es cero o positivo, no debe mostrar el color rojo.
 
-''''''Historia3: Reiniciar el contador''''''
+''''''Historia 3: Reiniciar el contador''''''
 
 Como usuario,  
 quiero tener un botón "RESET",  
